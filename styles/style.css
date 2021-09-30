@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    width: 45em;
+    margin: 0 auto;
+    padding-top: 4em;
+
+
+}
+
+#title {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 58px;
+    line-height: 60px;
+    letter-spacing: 3%;
+    padding-bottom: 1em;
+
+}
+
+#intro {
+    font-family: 'Assistant', sans-serif;
+    font-size: 21px;
+    line-height: 34px;
+
+}
+
+.line {
+
+    margin: 1em 2em 1em 2em;
+}
+
+
+.grid-item-1 {
+
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.input {
+    /* display: flex; */
+    /* flex-direction: row; */
+    align-items: flex-start;
+    /* background: #FFFFFF; */
+    box-shadow: inset 0px -2.5px 0px #DDDEE0;
+    border-radius: 3.4px;
+    width: 10em;
+    height: 2em;
+    padding-left: 30px;
+    /* flex: 1; */
+}
+
+ .input1 {
+    /* display: flex; */
+    /* flex-direction: row; */
+
+    /* background: #FFFFFF; */
+    box-shadow: inset 0px -2.5px 0px #DDDEE0;
+    border-radius: 3.4px;
+    width: 24em;
+    height: 2em;
+    padding-left: 10px;
+    /* flex: 1; */
+} 
+
+.label {
+
+    display: flex;
+    font-family: 'Assistant', sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    flex: 1;
+}
+
+select{
+    display: flex;
+    font-family: 'Assistant', sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    flex: 1;
+    width: 20em;
+}
+
+#name {
+    display: flex;
+    /* justify-content: center; */
+   
+}
+#name1 {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+textarea {
+    min-width: 26em;
+    min-height: 10em;
+    max-width: 26em;
+    max-height: 11em;
+
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   
+  }
+
+
+
+
+
+
+
+
+
+
+.grid-item-2 {
+    background-color: rgba(255, 66, 66, 0.8);
+    /* text-align: center; */
+    display: flex;
+    /* flex-direction: row; */
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.grid-item-3 {
+    /* background-color: rgba(255, 0, 0, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+
+
+    text-align: center;
+}
