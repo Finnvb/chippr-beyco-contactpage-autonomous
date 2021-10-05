@@ -8,7 +8,6 @@
 }
 
 
-
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -17,10 +16,10 @@ main {
     margin: 0 auto;
     padding-top: 4em;
     padding-bottom: 4em;
-   
+
 }
 
-body{
+body {
     background-color: #EBF2F1;
 }
 
@@ -58,45 +57,79 @@ body{
 .input {
 
     align-items: flex-start;
-    box-shadow: inset 0px -2.5px 0px #DDDEE0;
     border-radius: 3.4px;
-
-    width: 40%;
-    height: 2em;
+    border: none;
+    box-shadow: inset 0px -3px 0px #DDDEE0;
+    width: 43%;
+    height: 3em;
     padding-left: 10px;
     margin-top: 5px;
     margin-bottom: 10px;
+    /* outline: 3px solid #EBF2F1; */
 
+}
 
+.input:hover {
+    outline: 3px solid #EBF2F1;
+
+}
+
+.input:focus {
+    box-shadow: inset 0px -3px 0px #3A8070;
+    outline: 3px solid #EBF2F1;
 
 }
 
 .input2 {
 
     align-items: flex-start;
-    box-shadow: inset 0px -2.5px 0px #DDDEE0;
+    box-shadow: inset 0px -3px 0px #DDDEE0;
     border-radius: 3.4px;
+    border: none;
     width: 11em;
-    width: 46%;
-    height: 2em;
+    width: 48%;
+    height: 3em;
     padding-left: 10px;
     margin-left: 1em;
     margin-top: 5px;
     margin-bottom: 10px;
+    box-sizing: border-box;
 
+
+}
+
+.input2:hover {
+
+    outline: 3px solid #EBF2F1;
+}
+
+.input2:focus {
+    box-shadow: inset 0px -3px 0px #3A8070;
+    outline: 3px solid #EBF2F1;
 
 }
 
 .input1 {
 
-    box-shadow: inset 0px -2.5px 0px #DDDEE0;
+    box-shadow: inset 0px -3px 0px #DDDEE0;
     border-radius: 3.4px;
+    border: none;
     width: 96%;
-    height: 2em;
+    height: 3em;
     padding-left: 10px;
     margin-top: 5px;
     margin-bottom: 10px;
 
+}
+
+.input1:hover {
+
+    outline: 3px solid #EBF2F1;
+}
+
+.input1:focus {
+    box-shadow: inset 0px -3px 0px #3A8070;
+    outline: 3px solid #EBF2F1;
 
 }
 
@@ -117,13 +150,29 @@ select {
     line-height: 22px;
     flex: 1;
     width: 100%;
+    height: 2em;
     margin-top: 5px;
     margin-bottom: 10px;
+    background-color: #FFFFFF;
+    box-shadow: inset 0px -3px 0px #DDDEE0;
+    outline: 3px solid #EBF2F1;
+    border: none;
+    border-radius: 3.4px;
+}
+
+select:hover {
+
+    outline: 3px solid #EBF2F1;
+}
+
+select:focus {
+    box-shadow: inset 0px -3px 0px #3A8070;
+    outline: 3px solid #EBF2F1;
+
 }
 
 #name {
     display: flex;
-    /* justify-content: center; */
 
 }
 
@@ -140,6 +189,19 @@ textarea {
     max-height: 14em;
     margin-top: 5px;
     margin-bottom: 10px;
+    border: none;
+    box-shadow: inset 0px -3px 0px #DDDEE0;
+
+}
+
+textarea:hover {
+
+    outline: 3px solid #EBF2F1;
+}
+
+textarea:focus {
+    box-shadow: inset 0px -3px 0px #3A8070;
+    outline: 3px solid #EBF2F1;
 
 }
 
@@ -163,23 +225,15 @@ textarea {
 
 
 
-
-
-
-
-
 .grid-item-2 {
-    background-color: #FFFFFF ;
-    /* text-align: center; */
+    background-color: #FFFFFF;
     display: flex;
-    /* flex-direction: row; */
     padding: 1em;
-    /* border-radius: 1em; */
+    box-shadow: 0px 0px 4px 4px rgba(58, 128, 112, 0.2);
+
 }
 
 .grid-item-3 {
-    /* background-color: rgba(255, 0, 0, 0.8); */
-    /* border: 1px solid rgba(0, 0, 0, 0.8); */
 
     text-align: center;
 }
@@ -209,17 +263,13 @@ textarea {
     height: 5em;
     margin: 0em 1.5em 0em 1.5em;
     opacity: 75%;
-    /* transition: 1s ease-in-out; */
-    /* verander kleur in svg */
     box-sizing: border-box;
 }
 
 .iconsSocials:hover {
-    /* transform: scale(1.1); */
     opacity: 100%;
     border-bottom: 2px solid #3A8070;
 
-    /* verander kleur in svg */
 }
 
 .container {
@@ -232,10 +282,6 @@ textarea {
 
 }
 
-/* ul{
-   text-align: left;
-
-} */
 
 li {
     line-height: 23px;
@@ -252,7 +298,7 @@ li {
 @media only screen and (max-width: 776px) {
 
     main {
-        width: 35em;
+        width: 30em;
     }
 
     .grid-item-2 {
@@ -275,7 +321,7 @@ li {
 
     main {
         width: 25em;
-  
+
     }
 
     .grid-item-2 {
