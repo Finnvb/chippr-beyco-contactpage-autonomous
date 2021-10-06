@@ -65,12 +65,13 @@ body {
     padding-left: 10px;
     margin-top: 5px;
     margin-bottom: 10px;
-    /* outline: 3px solid #EBF2F1; */
+    outline: 3px solid #DDDEE0;
 
 }
 
 .input:hover {
     outline: 3px solid #EBF2F1;
+    box-shadow: inset 0px -3px 0px #EBF2F1;
 
 }
 
@@ -94,12 +95,13 @@ body {
     margin-top: 5px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    outline: 3px solid #DDDEE0;
 
 
 }
 
 .input2:hover {
-
+    box-shadow: inset 0px -3px 0px #EBF2F1;
     outline: 3px solid #EBF2F1;
 }
 
@@ -119,11 +121,12 @@ body {
     padding-left: 10px;
     margin-top: 5px;
     margin-bottom: 10px;
+    outline: 3px solid #DDDEE0;
 
 }
 
 .input1:hover {
-
+    box-shadow: inset 0px -3px 0px #EBF2F1;
     outline: 3px solid #EBF2F1;
 }
 
@@ -155,13 +158,14 @@ select {
     margin-bottom: 10px;
     background-color: #FFFFFF;
     box-shadow: inset 0px -3px 0px #DDDEE0;
-    outline: 3px solid #EBF2F1;
+    /* outline: 3px solid #EBF2F1; */
     border: none;
     border-radius: 3.4px;
+    outline: 3px solid #DDDEE0;
 }
 
 select:hover {
-
+    box-shadow: inset 0px -3px 0px #EBF2F1;
     outline: 3px solid #EBF2F1;
 }
 
@@ -191,11 +195,12 @@ textarea {
     margin-bottom: 10px;
     border: none;
     box-shadow: inset 0px -3px 0px #DDDEE0;
+    outline: 3px solid #DDDEE0;
 
 }
 
 textarea:hover {
-
+    box-shadow: inset 0px -3px 0px #EBF2F1;
     outline: 3px solid #EBF2F1;
 }
 
@@ -317,13 +322,35 @@ li {
 }
 
 
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 360px) and (max-width:480px) {
 
     main {
-        width: 25em;
-
+        width: 20em; 
     }
 
+    #title{
+        font-size: 45px;       
+    }
+
+    #intro{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .input{
+        width: 45%;
+    }
+
+    .input2{
+        width: 45%;
+    }
+    
+    .grid-item-1 {
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        justify-content: center;
+    }
     .grid-item-2 {
         text-align: center;
         grid-column-start: 1;
