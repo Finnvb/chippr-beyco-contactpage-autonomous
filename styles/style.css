@@ -180,7 +180,7 @@ select:focus {
 
 }
 
-#name1 {
+#center {
     display: flex;
     justify-content: center;
     margin: 1em;
@@ -297,8 +297,26 @@ li {
 
 }
 
+#formSubmitted {
 
+    width: 100%;
+    height: 8em;
+    background-color: #3A8070;
+    color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.formSubmittedText {
+    font-family: 'Assistant', sans-serif;
+    font-size: 21px;
+    line-height: 34px;
+}
 
 @media only screen and (max-width: 776px) {
 
@@ -325,32 +343,33 @@ li {
 @media only screen and (min-width: 360px) and (max-width:480px) {
 
     main {
-        width: 20em; 
+        width: 20em;
     }
 
-    #title{
-        font-size: 45px;       
+    #title {
+        font-size: 45px;
     }
 
-    #intro{
+    #intro {
         font-size: 16px;
         line-height: 25px;
     }
 
-    .input{
+    .input {
         width: 45%;
     }
 
-    .input2{
+    .input2 {
         width: 45%;
     }
-    
+
     .grid-item-1 {
         text-align: center;
         grid-column-start: 1;
         grid-column-end: 3;
         justify-content: center;
     }
+
     .grid-item-2 {
         text-align: center;
         grid-column-start: 1;

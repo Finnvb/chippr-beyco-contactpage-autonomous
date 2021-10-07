@@ -23,12 +23,12 @@
         </div>
         <div class="grid-item-2">
 
-            <form>
+            <form name="myForm" onsubmit="return validateForm()">
                 <div id="name">
                     <label class="label" for="firstname"> First name</label>
                     <label class="label" for="lastname"> Last name</label>
                 </div>
-                <input type="text" class="input" id="firstname">
+                <input type="text" class="input" id="firstname" >
                 <input type="text" class="input2" id="lastname">
                 <label class="label" for="email">Email</label>
                 <input type="email" class="input1" id="email" placeholder="you@example.com">
@@ -39,12 +39,12 @@
                     <option value="Trader">Trader</option>
                     <option value="Other">Other</option>
                 </select>
-                <!-- <input type="text" class="input"> -->
+              
                 <label class="label" for="message">Message</label>
                 <textarea id="message" name="subject" placeholder="Write something..">
                 </textarea>
-                <div id="name1">
-                    <input type="submit" value="Send" id="sendbutton">
+                <div id="center">
+                    <button type="submit" value="Send" id="sendbutton" onclick="myFunction()">Send</button>
                 </div>
             </form>
 
@@ -78,6 +78,11 @@
 
 
     </main>
+
+    <div id="formSubmitted"> <p class="formSubmittedText">Form has been succesfully submitted.</p></div>
+
+
+
 
     <script src="scripts/script.js"></script>
 </body>
