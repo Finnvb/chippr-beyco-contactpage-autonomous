@@ -28,10 +28,10 @@
                     <label class="label" for="firstname"> First name</label>
                     <label class="label" for="lastname"> Last name</label>
                 </div>
-                <input type="text" class="input" id="firstname" >
-                <input type="text" class="input2" id="lastname">
+                <input type="text" class="firstname" id="firstname">
+                <input type="text" class="lastname" id="lastname">
                 <label class="label" for="email">Email</label>
-                <input type="email" class="input1" id="email" placeholder="you@example.com">
+                <input type="email" class="email" id="email" placeholder="you@example.com">
                 <label class="label">Role</label>
                 <select id="role" name="Role">
                     <option value="Buyer">Buyer</option>
@@ -39,12 +39,12 @@
                     <option value="Trader">Trader</option>
                     <option value="Other">Other</option>
                 </select>
-              
+
                 <label class="label" for="message">Message</label>
-                <textarea id="message" name="subject" placeholder="Write something..">
+                <textarea id="message" name="subject">
                 </textarea>
                 <div id="center">
-                    <button type="submit" value="Send" id="sendbutton" onclick="myFunction()">Send</button>
+                    <button type="submit" value="Send" id="sendbutton" onclick="checkForm()">Send</button>
                 </div>
             </form>
 
@@ -79,7 +79,9 @@
 
     </main>
 
-    <div id="formSubmitted"> <p class="formSubmittedText">Form has been succesfully submitted.</p></div>
+    <div id="formSubmitted" class="fade-in ">
+        <p class="formSubmittedText">Form successfully submitted</p>
+    </div>
 
 
 

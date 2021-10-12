@@ -54,7 +54,7 @@ body {
 
 }
 
-.input {
+.firstname {
 
     align-items: flex-start;
     border-radius: 3.4px;
@@ -69,19 +69,19 @@ body {
 
 }
 
-.input:hover {
+.firstname:hover {
     outline: 3px solid #EBF2F1;
     box-shadow: inset 0px -3px 0px #EBF2F1;
 
 }
 
-.input:focus {
+.firstname:focus {
     box-shadow: inset 0px -3px 0px #3A8070;
     outline: 3px solid #EBF2F1;
 
 }
 
-.input2 {
+.lastname {
 
     align-items: flex-start;
     box-shadow: inset 0px -3px 0px #DDDEE0;
@@ -100,18 +100,18 @@ body {
 
 }
 
-.input2:hover {
+.lastname:hover {
     box-shadow: inset 0px -3px 0px #EBF2F1;
     outline: 3px solid #EBF2F1;
 }
 
-.input2:focus {
+.lastname:focus {
     box-shadow: inset 0px -3px 0px #3A8070;
     outline: 3px solid #EBF2F1;
 
 }
 
-.input1 {
+.email {
 
     box-shadow: inset 0px -3px 0px #DDDEE0;
     border-radius: 3.4px;
@@ -125,12 +125,12 @@ body {
 
 }
 
-.input1:hover {
+.email:hover {
     box-shadow: inset 0px -3px 0px #EBF2F1;
     outline: 3px solid #EBF2F1;
 }
 
-.input1:focus {
+.email:focus {
     box-shadow: inset 0px -3px 0px #3A8070;
     outline: 3px solid #EBF2F1;
 
@@ -158,7 +158,6 @@ select {
     margin-bottom: 10px;
     background-color: #FFFFFF;
     box-shadow: inset 0px -3px 0px #DDDEE0;
-    /* outline: 3px solid #EBF2F1; */
     border: none;
     border-radius: 3.4px;
     outline: 3px solid #DDDEE0;
@@ -189,13 +188,14 @@ select:focus {
 textarea {
     min-width: 100%;
     min-height: 10em;
-    max-width: 24em;
+    max-width: 18em;
     max-height: 14em;
     margin-top: 5px;
     margin-bottom: 10px;
     border: none;
     box-shadow: inset 0px -3px 0px #DDDEE0;
     outline: 3px solid #DDDEE0;
+    font-family: 'Assistant', sans-serif;
 
 }
 
@@ -318,7 +318,7 @@ li {
     line-height: 34px;
 }
 
-@media only screen and (max-width: 776px) {
+@media only screen and (max-width: 48.5em) {
 
     main {
         width: 30em;
@@ -340,7 +340,7 @@ li {
 }
 
 
-@media only screen and (min-width: 360px) and (max-width:480px) {
+@media only screen and (min-width: 22.5em) and (max-width:30em) {
 
     main {
         width: 20em;
@@ -355,11 +355,11 @@ li {
         line-height: 25px;
     }
 
-    .input {
+    .firstname {
         width: 45%;
     }
 
-    .input2 {
+    .lastname {
         width: 45%;
     }
 
@@ -382,5 +382,24 @@ li {
         grid-column-start: 1;
         grid-column-end: 3;
     }
+
+}
+
+
+.fade-in {
+    animation-name: FadeIn;
+    animation-duration: 2s;
+    transition-timing-function: linear;
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
 
 }

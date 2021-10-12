@@ -5,7 +5,7 @@ function validateForm() {
     let message = document.forms["myForm"]["message"].value;
 
 
- 
+
     if (firstName == "") {
 
         document.getElementById("firstname").style.boxShadow = " inset 0px -3px 0px #ff0000";
@@ -30,11 +30,26 @@ function validateForm() {
         document.getElementById("message").setAttribute("required", true);
     }
 
-    // else {
-
-    //     document.getElementById('formSubmitted').style.display = 'flex';
-    // }
 
     return false;
-   
+
+}
+
+function checkForm() {
+
+    if (firstname.value != "" & lastname.value != "" & email.value != "" & message.value != "") {
+        formSubmittedSuccess();
+    }
+}
+
+function formSubmittedSuccess() {
+    document.getElementById('formSubmitted').style.display = 'flex';
+
+    setTimeout(hideForm, 3000);
+
+}
+
+function hideForm() {
+    document.getElementById('formSubmitted').style.display = 'none';
+
 }
