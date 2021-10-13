@@ -21,20 +21,25 @@ De contactpagina van Beyco is op dit moment erg simpel. Mijn taak is om een mock
 
 ## Werkwijze
 
-Deze opdracht gaat over alle fases van de DLC analyseren, ontwerpen, bouwen, integreren en testen.
-Analyseren
+# Analyseren
 
-In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren.
-Ontwerpen
+In de analysefase begon ik met het uitzoeken welke opdrachtgever mij het leukst leek om een opdracht voor te maken. Zo heb ik de websites bezocht van de opdrachtgevers en heb ik de opdrachtbeschrijvingen gelezen. Uiteindelijk heb ik voor beyco gekozen. Vervolgens hebben we een debriefing geschreven en doorgestuurd naar de opdrachtgever. In de debriefing komt  informatie over Beyco-Chippr en de opdracht te staan. Ook hebben we een meeting gehad met onze opdrachtgever waarin we onze vragen hebben kunnen stellen. Nadat de debriefing is goedgekeurd konden we aan de slag gaan. 
 
-In de ontwerpfase neem je ontwerpbeslissingen en zorg je dat je precies weet wat je moet gaan bouwen.
-Bouwen
+[debriefingBeyco.docx](https://github.com/Finnvb/chippr-beyco-contactpage-autonomous/files/7336513/debriefingBeyco.docx)
+
+# Ontwerpen
+
+In de ontwerpfase heb ik verschillende variaties van de contactpagina geschetst met pen en papier.
+
+# Bouwen
 
 In de bouwfase realiseer je de beslissingen uit de ontwerpfase.
-Integreren
+
+# Integreren
 
 In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.
-Testen
+
+# Testen
 
 In de testfase controleer je of jouw aanpassingen werken zoals bedoeld.
 
