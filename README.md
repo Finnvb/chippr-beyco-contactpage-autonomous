@@ -29,7 +29,17 @@ In de analysefase begon ik met het uitzoeken welke opdrachtgever mij het leukst 
 
 # Ontwerpen
 
-In de ontwerpfase heb ik verschillende variaties van de contactpagina geschetst met pen en papier.
+In de ontwerpfase heb ik verschillende variaties van de contactpagina geschetst met pen en papier. Belangrijk is dat de gebruiker een contactformulier kan invullen en dat er een titel is.
+
+![20210929_124719(1)](https://user-images.githubusercontent.com/26089533/137102784-878ab960-aba9-48e5-a72d-fe38163373dd.jpg)
+
+Uiteindelijk heb ik gekozen voor onderstaande schets om te gaan maken. 
+
+![20210929_143720](https://user-images.githubusercontent.com/26089533/137103027-9c056aa6-629e-4b46-8baa-458557865cd7.jpg)
+
+Daarna heb ik met de docent een breakdown schets gemaakt. Een breakdown schets kan helpen om de structuur van het html te ordenen.
+![20211013_105932](https://user-images.githubusercontent.com/26089533/137104826-c61b3c48-ef35-435a-aefb-adefa407336b.jpg)
+
 
 # Bouwen
 
