@@ -15,13 +15,28 @@ De contactpagina van Beyco is op dit moment erg simpel. Mijn taak is om een mock
 
 - [Titel](#titel)
   * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
+  * [Werkwijze](#werkwijze)
   * [Licentie](#licentie)
 
 
+## Werkwijze
+
+Deze opdracht gaat over alle fases van de DLC analyseren, ontwerpen, bouwen, integreren en testen.
+Analyseren
+
+In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren.
+Ontwerpen
+
+In de ontwerpfase neem je ontwerpbeslissingen en zorg je dat je precies weet wat je moet gaan bouwen.
+Bouwen
+
+In de bouwfase realiseer je de beslissingen uit de ontwerpfase.
+Integreren
+
+In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.
+Testen
+
+In de testfase controleer je of jouw aanpassingen werken zoals bedoeld.
 
 ## Licentie
 
