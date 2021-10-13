@@ -1,10 +1,12 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
+# Chippr-Beyco contactpagina
 
 ## Beschrijving
-<!-- Voeg een link toe naar Github Pages 🌐-->
-<!-- Voeg een mooie poster visual toe 📸 -->
+https://finnvb.github.io/chippr-beyco-contactpage-autonomous/
+
+![afbeelding](https://user-images.githubusercontent.com/26089533/137092327-1b9b81a9-19dd-4c40-ae92-b61075b07d6a.png)
+
 
 ## Inhoudsopgave
 
